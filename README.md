@@ -1,7 +1,7 @@
 # Gromit AI: Smart Calendar Events
 
 Create calendar events with ease with Gromit.
-Gromit provides natural language Google calendar event creation, powered by GPT3-5. Currently packaged as a simple-to-use Chrome extension, with multi-calendar event targeting support.
+Gromit provides natural language Google calendar event creation, powered by GPT-3.5. Currently packaged as a simple-to-use Chrome extension, with multi-calendar event targeting support.
 
 ![Gromit AI Demo](demo.gif)
 
