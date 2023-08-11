@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <title>Gromit AI: Smart Calendar Events</title>
+    <style type="text/css">
+        body {
+            min-width: 400px;
+            position: relative;
+            vertical-align: middle;
+            height: 100%;
+            overflow-y: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-3 px-3">
+        <form>
+            <div class="mb-3">
+            <label for="calendarSelector" class="form-label">Calendar:</label>
+            <select class="form-select" id="calendarSelector">
+            </select>
+            </div>
+
+            <div class="mb-3">
+            <label for="eventText" class="form-label">Event Description:</label>
+            <input name="" id="eventText" cols="30" rows="2" class="form-control" type="text" placeholder=""></input>
+            </div>
+
+            <button type="submit" class="btn btn-outline-primary w-100" id="createEvent">Create Event</button>
+        </form>
+        <div id="alertContainer" class="my-3"></div>
+    </div>
+    <script src="gromit.js"></script>
+</body>
+
+</html>

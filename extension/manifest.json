@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Gromit",
+  "description": "Gromit AI: Smart Calendar Events",
+  "version": "0.1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "oauth2": {
+    "client_id": "285195547573-osqlob5r3u8h08a52ecmuov93n8u6trq.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar.readonly",
+      "https://www.googleapis.com/auth/calendar.events"
+    ]
+  },
+  "permissions": ["identity"]
+}
